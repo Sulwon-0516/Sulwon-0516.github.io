@@ -49,4 +49,9 @@ table.dataSet {
 font.ratio {
 	font-size: 15px;
 	font-family: Times;
-}	
+}
+
+/* Keep each author's first/last name together; allow wrapping between authors */
+.authors a, .authors b {
+	white-space: nowrap;
+}

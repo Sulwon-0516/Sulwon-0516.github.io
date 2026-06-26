@@ -55,3 +55,6 @@ font.ratio {
 .authors a, .authors b {
 	white-space: nowrap;
 }
+.authors b {
+	font-weight: 700;
+}
